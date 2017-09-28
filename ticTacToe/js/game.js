@@ -23,6 +23,8 @@ const game = {
       else
         this.move = "cross";
   },
+  movesCounter:0,
+  winner:null,
   fields:
   [
     {
